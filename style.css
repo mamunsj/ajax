@@ -1,0 +1,66 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  display: block;
+  max-width: 400px;
+  width: 80%;
+  border: none;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 21px 30px;
+  background-color: rgb(17, 239, 198);
+  color: rgb(31, 4, 4);
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(135, 33, 144);
+  color: rgb(17, 239, 198);
+}
+
+.mydiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+#divDefault img {
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (max-width: 620px) {
+  body {
+    width: 90%;
+  }
+  button {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+
+  #divDefault img {
+    width: 40px;
+    height: 40px;
+  }
+}
